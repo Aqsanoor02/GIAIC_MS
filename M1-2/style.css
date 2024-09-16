@@ -1,0 +1,74 @@
+.cv{
+    width: 900px;
+    height: max-content;
+    background-color: blanchedalmond;
+    box-shadow: 2px 5px 28px 10px gray;
+    display: flex;
+    flex-direction: row;
+}
+.rightDiv{
+    width: 300px;
+    height: max-content;
+    background-color: rgb(83, 21, 40);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+
+}
+.rightDiv img{
+    align-self: center;
+}
+.rightDiv p a{
+    color: white;
+}
+.rightDiv h2{
+    margin-bottom: 0px;
+}
+#profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: max-content;
+   align-self: center;
+   border: 0px ;
+   height:30px;
+   border-radius: 3px;
+   background-color: blanchedalmond;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 4px beige;
+
+}
+.leftDiv{
+    height: max-content;
+    width: 600px;
+    /* background-color: aquamarine; */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.leftDiv h2{
+    line-height: 0px;
+
+}
+.leftDiv p{
+    text-align: justify;
+}
+.eduaction H4 p{
+    line-height: 0px;
+}
+.cert li ul{
+    padding-left: 20px;
+    text-align:left;
+}
